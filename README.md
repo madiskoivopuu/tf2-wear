@@ -1,0 +1,2 @@
+# tf2-wear
+!wear command for tf2, I couldn't figure out a reliable way to always keep !wear hat in slot 1 and !wear2 in slot 2 without breaking something so its like this. Another way to fix that would be to uncomment TF2Items_OnGiveNamedItem_Post, but that will involve setting m_iItemID to 0 so that TF2Items_OnGiveNamedItem_Post would get called after evert death, but then the player wont get any kills added onto his hat when he kills someone with a strange hat.
